@@ -1,4 +1,4 @@
-test_str = 'geeksforgeeks !!$ is best 4 all Geeks 10-0'
+test_str = input('Enter a string')
  
 print("The original string is : " + str(test_str))
  
