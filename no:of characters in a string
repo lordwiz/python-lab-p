@@ -5,5 +5,4 @@ for i in test_str:
   all_frq[i]+=1
  else:
   all_frq[i]=1
-print("The characters number in"+test_str "is" : " + str(all_frq))
-
+print("The number of characters in " +test_str+ " is :" + str(all_frq))
