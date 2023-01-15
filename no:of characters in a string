@@ -1,7 +1,9 @@
 test_str = input('Enter a string')
- 
-print("The original string is : " + str(test_str))
- 
-res = len([ele for ele in test_str if ele.isalpha()])
- 
-print("Count of Alphabets : " + str(res))
+all_frq={}
+for i in test_str:
+ if i in all_frq:
+  all_frq[i]+=1
+ else:
+  all_frq[i]=1
+print("The characters number in"+test_str "is" : " + str(all_frq))
+
