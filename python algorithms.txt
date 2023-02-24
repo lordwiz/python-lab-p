@@ -1,0 +1,363 @@
+PROGRAM NUMBER : 01 
+ALGORITHM 
+step 1:start 
+step 2:read the value of endyear 
+step 3:assign startyear=2020 
+step 4:for each year from startyear to end year 
+step 5:if(0 == year % 4) and (0 != year % 100) or (0 == year % 400) then 
+step 6:print year 
+step 7:stop 
+
+
+
+ PROGRAM NUMBER : 02      
+(a)GENERATE POSITIVE LIST OF NUMBERS FROM A GIVEN LIST OF INTEGERS
+ALGORITHM 
+Step 1:start 
+Step 2:create a list numlist=[34, 1, 0, -23, 82, -5] 
+Step 3:if positivenum=num>0 then 
+Step 4:print positivenum 
+Step 5:stop 
+
+(b)SQUARE OF N NUMBERS
+ALGORITHM 
+Step 1:start 
+Step 2:create a list numbers=[1,2,3,4,5] 
+Step 3: squared_numbers=[number ** 2 for number in numbers] 
+Step 4:print squared_numbers 
+Step 5:stop
+
+(c)FORM A LIST OF VOWELS SLECTED FROM A GIVEN WORD  
+ALGORITHM  
+Step 1:start 
+Step 2:enter a string 
+Step 3:vowel== "aeiou" 
+Step 4:create a dictionary data 
+Step 5:for each character in string 
+Step 6:if character in vowel then 
+Step 7: data[charecter] += 1 
+Step 8:print the vowel 
+Step 9:stop 
+
+(d)LIST ORDINAL VALUE OF EACH ELEMENT OF A WORD
+ALGORITHM 
+Step 1:start 
+Step 2:enter the word 
+Step 3: for each character in the word 
+Step 4:ord(character) 
+Step 5:print ordinal value of the word 
+Step 6:stop
+
+PROGRAM NUMBER : 03         
+ALGORITHM 
+Step 1:start 
+Step 2:enter the string 
+Step 3:create a dictionary d 
+Step 4:for each word in the string 
+Step 5:if w in d then 
+d[w]+=1 
+Step 6:else 
+d[w]=1 
+Step 7:print the count 
+Step 8:stop 
+
+PROGRAM NUMBER : 04    
+ALGORITHM 
+Step 1:start 
+Step 2:create a list s = ['anu', 'ammu', 'manu', 'binu', 'janu', 'meenu', 
+‘mani’] 
+Step 4:for a in the list 
+Step 5:new+=a 
+Step 6:print the count 
+Step 7:stop 
+
+PROGRAM NUMBER : 05  
+ALGORITHM 
+Step 1:start 
+Step 2:enter the string 
+Step 3: string[0]+string[1:].replace(string[0],'$') 
+Step 4:print the string 
+Step 5:stop
+
+PROGRAM NUMBER : 06  
+ALGORITHM
+Step 1:start 
+Step 2:enter the string 
+Step 3: swapped_string = string[-1] + string[1:-1] + string[0] 
+Step 4:print theswapped_string 
+Step 5:stop 
+
+PROGRAM NUMBER : 07   
+ALGORITHM 
+Step 1:start 
+Step 2:enter  the colours 
+Step 3:seperate each colours using split() 
+Step 4:print first and last colour 
+Step 5:stop
+
+PROGRAM NUMBER : 08          
+n+nn+nnn+… 
+ALGORITHM 
+Step 1:start 
+Step 2:enter the value of n 
+Step 3:initialize total=0 
+Step 4:for i=0 to n 
+Step 5: total += int(str(num) + i * str(num)) 
+Step 6:print total 
+Step 7:stop 
+
+PROGRAM NUMBER : 09         
+ALGORITHM 
+Step 1:start 
+Step 2:create a dictionary y={'carl':40,'alan':2,'bob':1,'danny':3} 
+Step 3: l=list(y.items()) 
+Step 4: dict=dict(l) 
+Step 5:l.sort() 
+Step 6:print dictionary in ascendind order 
+Step 8: l.sort(reverse=True) 
+Step 9:print dictionary in descendind order 
+Step 10:stop
+
+PROGRAM NUMBER : 10   
+ALGORITHM 
+Step 1:start 
+Step 2:input two stringa and b 
+Step 3: x=a[0:2] 
+Step 4: a=a.replace(a[0:2],b[0:2]) 
+Step 5: b=b.replace(b[0:2],x) 
+Step 6:print the strings a and b 
+Step 7:stop 
+
+PROGRAM NUMBER : 11  
+ALGORITHM 
+Step 1:start 
+Step 2:create list1 = [11, 22, 33, 44, 55] 
+Step 3:print the list 
+Step 4:for I in the list1 
+Step 5:if(i%2 == 0) then 
+Step 6:remove i 
+Step 7:print the list after removing even numbers 
+Step 8:stop 
+
+PROGRAM NUMBER : 12  
+ALGORITHM 
+Step 1:start 
+Step 2:enter a number 
+Step 3:for row from 1 to num+1 
+Step 4:for col from 1 to row+1 
+Step 5:print row*col 
+Step 6:stop 
+
+PROGRAM NUMBER : 13  
+ALGORITHM 
+Step 1:start 
+Step 2:enter the string 
+Step 3:create a dictionary all_freq 
+Step 4:for i in string 
+Step 5:if i in all_freq then 
+Step 6:all_freq[i] += 1 
+Step 7:else 
+Step 8:all_freq[i]= 1 
+Step 9:print the count of character I the string 
+Step 10:stop 
+
+PROGRAM NUMBER : 14   
+ALGORITHM 
+Step 1:start 
+Step 2:enter the string 
+Step 3:if string.endswith('ing') then 
+Step 4:  string += 'ly' 
+Step 5:elif len(string) >= 3 then 
+Step 6:string += 'ing' 
+Step 7:print string 
+Step 8:stop 
+
+PROGRAM NUMBER : 15     
+ALGORITHM 
+Step 1:start 
+Step 2:read a number 
+Step 3:for I from 1 to num-1 
+Step 4: if(num%i==0) then 
+Step 5:print i 
+Step 6:stop 
+
+PROGRAM NUMBER : 16   
+ALGORITHM 
+Step 1:start 
+Step 2:import the package graphics and two modules rectangle and circle 
+Step 3:import the sub package and its modules sphere and cuboid 
+Step 4:enter the choice from 1.rectangle 2.circle 3.sphere 4.cuboid 5.exit  
+Step 5:if choice=1 then 
+Step 6:enter the length and breadth 
+Step 7:call the methods area and perimeter from the module rectangle 
+Step 8: if choice=2 then 
+Step 9:enter the radius 
+Step 10:call the methods area and perimeter from the module circle 
+Step 11: if choice=3 then 
+Step 12:enter the radius 
+Step 13:call the methods area and perimeter from the module sphere 
+Step 14: if choice=4 then 
+Step 15:enter the length,width and height 
+Step 16:call the methods area and perimeter from the module cuboid 
+Step 17:if choice=5 then 
+Step 18:exit 
+Step 19:stop 
+
+PROGRAM NUMBER : 17   
+ALGORITHM 
+Step 1:start 
+Step 2:create a class rectangle  
+Step 3:read length and breadth inside the constructor init 
+Step 4:define method area  
+Step 5:return (length*breadth) 
+Step 6:define method perimeter   
+Step 7: return(2*(length+bredth)) 
+Step 8:create two object r1 and r2 
+Step 9:if area1=area2 then 
+Step 10:prints same 
+Step 11:else 
+Step 12:print different 
+Step 13:stop 
+
+PROGRAM NUMBER : 18                                                                         
+ALGORITHM 
+Step 1:start 
+Step 2:create a class bank 
+Step 3:read accno,acctype,holdname,balance inside the init 
+Step 4: define method deposit 
+Step 5:read deposit 
+Step 6:balance=balance+deposit 
+Step 7:print balance 
+Step 8:define method withdraw 
+Step 9:read amount to withdraw 
+Step 10:if balance>=amount then 
+Step 11:balance=balance-amount 
+Step 12:print amount 
+Step 13:else 
+Step 14:print insufficient balance 
+Step 15:define method display 
+Step 16:print balance 
+Step 17:create object and call the methods 
+Step 18:stop 
+
+PROGRAM NUMBER:19  
+ALGORITHM 
+Step 1:start 
+Step 2:create a class rectangle 
+Step 3:initialize length and width as private 
+Step 4:define constuctor init 
+Step 5:read length,width 
+Step 6:define method area  
+Step 7:return (length*breadth) 
+Step 8:create two object r1 and r2 
+Step 9:if area1<area2 then 
+Step 10:prints area2 is greater 
+Step 11:else 
+Step 12:print area1 is greater 
+Step 13:stop 
+
+PROGRAM NUMBER : 20  
+ALGORITHM 
+Step 1:start 
+Step 2:create a class publisher 
+Step 3:assign publisher_name to name 
+Step 4:define method display 
+Step 5:print the name 
+Step 6:create derived class book from publisher 
+Step 7:initialize title and auther 
+Step 8:define method display 
+Step 9:access the parent constructor and method by using super() 
+Step 10:print the title and auther 
+Step 11:create derived class python from book 
+Step 12: initialize price and pages 
+Step 13: define method display 
+Step 14:access the parent constructor and method by using super() 
+Step 15:print the title and auther 
+Step 16:create object obj2 for python 
+Step 17:call the function display() 
+Step 18:stop 
+
+PROGRAM NUMBER : 21    
+ALGORITHM 
+Step 1:start 
+Step 2:open the file text.txt 
+Step 3:read the file line by line 
+Step 4:print the content 
+Step 5:stop
+
+PROGRAM NUMBER : 22    
+ALGORITHM 
+Step 1:start 
+Step 2:open file abc 
+Step 3:open file file 
+Step 4:read the content line by line of the file file1 and assign it to content 
+Step 5:access each element from 0 to length of content 
+Step 6:if(i%2==0) then 
+Step 7:write the content in file2 
+Step 8:else 
+Step 9:pass 
+Step 10:close file2 
+Step 11:open file2 in read mode  
+Step 12: assign file2 to content1 
+Step 13:print the content1 of the file2 
+Step 14:close the file1 and file2 
+Step 15:stop 
+
+PROGRAM NUMBER : 23 
+Step 1:start 
+Step 2:import csv 
+Step 3:open the csv file 
+Step 4:read the file and assign it to data 
+Step 5:print the file 
+Step 6:stop
+
+PROGRAM NUMBER :24
+Step 1:start 
+Step 2:import csv 
+Step 3:open csvfile in read mode 
+Step 4: read the file and assign it to data 
+Step 5:print the index 2 column 
+Step 6:stop 
+
+PROGRAM NUMBER :25 
+Step 1:start 
+Step 2:import csv 
+Step 3: open abcd.txt in write mode 
+Step 4:provide the field names  
+Step 5:write the file dictionary by using method DictWriter and assign to content 
+Step 6:using writerow() written to csv 
+Step 7:stop
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
